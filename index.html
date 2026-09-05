@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sangwon Lee — CV</title>
+<meta name="description" content="Curriculum vitae of Sangwon Lee, robotics and vision software engineer.">
+<meta property="og:title" content="Sangwon Lee — CV">
+<meta property="og:description" content="Robotics &amp; vision software engineer. Humanoid manipulation, VLA models, production robot vision.">
+<meta property="og:type" content="profile">
+<style>
+  :root {
+    --ink: #1f3864;
+    --body: #2a2a2a;
+    --muted: #5c6470;
+    --rule: #dfe3ea;
+    --paper: #ffffff;
+    --field: #eef0f4;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: var(--field);
+    color: var(--body);
+    font-family: "Segoe UI", Calibri, system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  header {
+    background: var(--paper);
+    border-bottom: 1px solid var(--rule);
+    padding: 18px 24px 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 6px 20px;
+  }
+  h1 {
+    margin: 0;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+  }
+  .role {
+    color: var(--muted);
+    margin-right: auto;
+  }
+  nav { display: flex; gap: 18px; flex-wrap: wrap; }
+  a {
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(31, 56, 100, 0.35);
+    padding-bottom: 1px;
+  }
+  a:hover, a:focus-visible { border-bottom-color: var(--ink); }
+  a:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+  main { flex: 1; min-height: 0; padding: 20px 24px 28px; }
+  .viewer {
+    height: 100%;
+    min-height: 60vh;
+    border: 1px solid var(--rule);
+    background: var(--paper);
+  }
+  .viewer object, .viewer iframe { width: 100%; height: 100%; border: 0; display: block; }
+  .fallback { padding: 40px 24px; text-align: center; color: var(--muted); }
+  footer {
+    padding: 0 24px 22px;
+    color: var(--muted);
+    font-size: 13px;
+  }
+  @media (max-width: 640px) {
+    header { padding: 16px; }
+    main { padding: 14px 16px 20px; }
+    .role { flex-basis: 100%; margin-right: 0; }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Sangwon Lee</h1>
+    <span class="role">Robotics &amp; Vision Software Engineer</span>
+    <nav>
+      <a href="Sangwon_Lee_CV.pdf" download>Download PDF</a>
+      <a href="https://www.linkedin.com/in/lee-sangwon-8839202a8/">LinkedIn</a>
+      <a href="https://github.com/sangwon2659">GitHub</a>
+      <a href="mailto:sangwon2659@gmail.com">Email</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="viewer">
+      <object data="Sangwon_Lee_CV.pdf#view=FitH" type="application/pdf">
+        <div class="fallback">
+          <p>This browser can&rsquo;t display the PDF inline.</p>
+          <p><a href="Sangwon_Lee_CV.pdf">Open the CV as a PDF</a></p>
+        </div>
+      </object>
+    </div>
+  </main>
+
+  <footer>Last updated September 2026.</footer>
+</body>
+</html>
